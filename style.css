@@ -7,13 +7,14 @@ body
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: thistle;
+    background-color: #f5e6d3;
+    border-color:#b89b7a;
 }
 #myh1
 {
     font-size: clamp(2.5rem, 10vw, 4rem);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: hsl(0, 6%, 14%);
+    color: #6b4f3a;
 }
 #container
 {
@@ -24,14 +25,14 @@ body
     padding: 30px;
     border:5px solid;
     border-radius: 20px;
-    background-color: rgb(252, 243, 208);
+    background-color: #fff9f0;
 }
 #display
 {
     font-size: clamp(2rem, 10vw, 3rem);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    color: rgb(30, 27, 27);
+    color: #3e2c23;
     margin-bottom: 25px;
     white-space: nowrap;
 }
@@ -41,6 +42,7 @@ body
     justify-content: center;
     gap: 10px;
     flex-wrap: wrap;
+    color:#3e2c23;
 }
 #controls button
 {
@@ -51,7 +53,7 @@ body
 }
 #startBtn
 {
-    background-color: rgb(146, 188, 146);
+    background-color: #8faf8f;
     border-radius: 10px;
     border: none;
 }
@@ -61,8 +63,8 @@ body
 }
 #stopBtn
 {
-    background-color:rgb(184, 106, 106);
-    border-radius: 10px;
+    background-color:#c98282;
+    border-radius:10px;
     border: none;
 }
 #stopBtn:hover
@@ -71,7 +73,7 @@ body
 }
 #resetBtn
 {
-    background-color:rgb(112, 112, 189);
+    background-color:#a67b5b;
     border-radius: 10px;
     border: none;
 }
